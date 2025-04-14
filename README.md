@@ -6,4 +6,4 @@ par le professeur Vincent Archambault-Bouffard.
 
 ## Site web du cours
 - Le site web du cours est accessible via github pages à l'adresse
-  [https://archambaultv-prof.github.io/2025H-420-2C3-MA](https://archambaultv-prof.github.io/2025H-420-2C3-MA).
+  [https://archambaultv-prof.github.io/2025H-420-910-MA](https://archambaultv-prof.github.io/2025H-420-910-MA).
