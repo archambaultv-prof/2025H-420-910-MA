@@ -75,7 +75,7 @@ const config = {
         title: 'Concepts de programmation 1',
         logo: {
           alt: 'Site Logo',
-          src: 'img/2C3.svg',
+          src: 'img/910.svg',
         },
         items: [
           {
@@ -85,7 +85,6 @@ const config = {
             label: 'Accueil',
           },
           {to: 'https://archambaultv-prof.github.io/programmation-python/', label: 'Notes de cours', position: 'left'},
-          {to: 'https://github.com/archambaultv-prof/2025H-420-910-MA-Pyforum', label: 'PyForum', position: 'left'},
           {
             href: 'https://github.com/archambaultv-prof/2025H-420-910-MA/',
             label: 'GitHub',
