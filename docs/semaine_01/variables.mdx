@@ -1,0 +1,195 @@
+---
+sidebar_position: 5
+sidebar_label: Variables, types et affectation
+description: Variables, types et affectation
+---
+
+# Variables, types et affectation
+
+## Qu'est-ce qu'une variable ?
+
+Une variable est un nom qui permet de mémoriser une valeur dans un programme.
+Elle agit comme une boîte étiquetée dans laquelle on range une donnée, qu’on
+peut réutiliser ou modifier plus tard.
+
+### Syntaxe de pseudo-code
+
+On utilise souvent la syntaxe suivante pour déclarer une variable et lui
+attribuer une valeur en pseudo-code :
+
+```plaintext
+nom_variable <- valeur
+```
+
+Par exemple, pour déclarer une variable `age` et lui attribuer la valeur `25`,
+on écrirait :
+
+```plaintext
+age <- 25
+```
+
+Il est aussi possible, pour les besoins du cours, d'utiliser le symbole `=` à la place de `<-`.
+
+```plaintext
+age = 25
+```
+
+<details> 
+
+<summary><strong>🤔 Testez votre compréhension</strong></summary>
+
+ <MultipleChoiceTabs>
+    <MultipleChoice>
+    Quelles sont les variables dans le code suivant ?
+
+    ```plaintext
+    x <- 25
+    WHILE x > 0 DO
+        x <- x - 1
+        PRINT x
+        y <- x * 2
+        PRINT (y - x)
+    END WHILE
+    ```
+
+        <MultipleChoiceOption>
+
+        `x`, `y`, `x * 2` et `x - 1`
+
+        </MultipleChoiceOption>
+
+        <MultipleChoiceOption isCorrect>
+
+        `x` et `y`
+
+        </MultipleChoiceOption>
+        
+        <MultipleChoiceOption>
+
+        `x`, `y`, `WHILE`, `DO`, `END WHILE` et `PRINT`
+
+        </MultipleChoiceOption>
+
+    </MultipleChoice>
+ </MultipleChoiceTabs>
+ </details> 
+
+ # Les types
+
+ Chaque valeur a un type : c'est sa nature ou sa catégorie. Plus formellement,
+ un type est l'ensemble des valeurs que peut prendre une variable. Par exemple,
+une variable type `entier` peut prendre n'importe quel nombre entier, positif ou négatif. Mais elle ne peut
+pas prendre une chaîne de caractères ou un booléen.
+
+## Types de bases les plus courants
+
+Voici quelques types de base que vous rencontrerez souvent dans la
+programmation. Si vous ne les connaissez pas, ne vous inquiétez pas, nous allons les
+voir en détail dans les prochaines semaines.
+
+| Type       | Description                          | Exemples                     |
+|------------|--------------------------------------|------------------------------|
+| Nombre     | Valeur numérique (entier ou décimal) | `42`, `3.14`, `-7`           |
+| Texte      | Suite de caractères (chaîne de texte)| `"Bonjour"`, `"123"`         |
+| Booléen    | Valeur vraie ou fausse               | `vrai`, `faux`               |
+| Liste      | Collection ordonnée de valeurs       | `[1, 2, 3]`, `["a", "b"]`    |
+| Null        | Absence de valeur                   | `None`, `null`             |
+| Dictionnaire | Collection de paires clé-valeur    | `{"nom": "Alice", "âge": 30}`|
+
+Certain languages de programmation, comme Python et JavaScript, permettent aux
+variables de changer de type au cours de l'exécution du programme. D'autres
+langages, comme Java et C, exigent que vous déclariez le type de la variable au
+moment de sa création.
+
+:::note
+
+Même si Python ou JavaScript permettent de changer le type d'une variable, une
+variable n'a qu'un seul type à la fois.
+
+:::
+
+### Types et algorithmes
+
+Il est toujours important d'avoir en tête les types des variables dans vos
+algorithmes. Ça revient à se poser la question: quelles sont les valeurs
+possibles ? Si vous n'avez pas de réponse, c'est que vous n'avez pas bien
+compris votre algorithme ou le contexte dans lequel il s'applique.
+
+Il est possible dans un pseudo code ou un algorithme de concevoir un type très
+précis, comme par exemple un entier pair plus grand que 18. Toutefois, la
+plupart des langages de programmation n'offrent pas cette possibilité. Il faut
+donc se contenter de types plus généraux.
+
+:::tip
+
+Ayez toujours en tête les types de vos variables lorsque vous écrivez un
+algorithme ou du code. Cela vous aidera à mieux comprendre le fonctionnement de
+programme et à éviter les erreurs.
+
+:::
+
+<details> 
+
+<summary><strong>🤔 Testez votre compréhension</strong></summary>
+
+ <MultipleChoiceTabs>
+  <MultipleChoice>
+    La variable `age` représente l'âge d'une personne. Quel est le type de la variable ? 
+
+        <MultipleChoiceOption isCorrect>
+
+        Nombre
+
+        </MultipleChoiceOption>
+
+        <MultipleChoiceOption >
+
+        Booléen
+
+        </MultipleChoiceOption>
+        
+        <MultipleChoiceOption>
+
+        Chaîne de caractères
+
+        </MultipleChoiceOption>
+
+        <MultipleChoiceOption>
+
+        Liste de nombres
+
+        </MultipleChoiceOption>
+
+    </MultipleChoice>
+ 
+  <MultipleChoice>
+    La variable `les_cours` représente les cours suivis par un étudiant. Quel est le type de la variable ?
+
+        <MultipleChoiceOption >
+
+        Nombre
+
+        </MultipleChoiceOption>
+
+        <MultipleChoiceOption isCorrect>
+
+        Liste de chaînes de caractères
+
+        </MultipleChoiceOption>
+        
+        <MultipleChoiceOption>
+
+        Chaîne de caractères
+
+        </MultipleChoiceOption>
+
+        <MultipleChoiceOption>
+
+        Liste de nombres
+
+        </MultipleChoiceOption>
+
+    </MultipleChoice>
+ 
+ </MultipleChoiceTabs>
+ </details> 
