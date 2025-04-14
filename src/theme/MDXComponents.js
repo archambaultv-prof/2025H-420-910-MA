@@ -14,6 +14,10 @@ import ExerciseBody from '@site/src/components/Exercise/ExerciseBody';
 import ExerciseFooter from '@site/src/components/Exercise/ExerciseFooter';
 import ExerciseHeader from '@site/src/components/Exercise/ExerciseHeader';
 import ExerciseList from '@site/src/components/Exercise/ExerciseList';
+import MultipleChoice from '@site/src/components/MultipleChoice';
+import MultipleChoiceList from '@site/src/components/MultipleChoice/MultipleChoiceList';
+import MultipleChoiceOption from '@site/src/components/MultipleChoice/MultipleChoiceOption';
+import MultipleChoiceTabs from '@site/src/components/MultipleChoice/MultipleChoiceTabs';
 
 export default {
   // Reusing the default mapping
@@ -31,4 +35,8 @@ export default {
   ExerciseFooter,
   ExerciseHeader,
   ExerciseList,
+  MultipleChoice,
+  MultipleChoiceList,
+  MultipleChoiceOption,
+  MultipleChoiceTabs
 };
