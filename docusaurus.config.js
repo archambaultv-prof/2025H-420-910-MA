@@ -26,7 +26,7 @@ const config = {
   projectName: '2025H-420-910-MA', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -84,7 +84,7 @@ const config = {
             position: 'left',
             label: 'Accueil',
           },
-          {to: 'https://archambaultv-prof.github.io/programmation-python/', label: 'Notes de cours', position: 'left'},
+          {to: 'https://archambaultv-prof.github.io/programmation-python/docs/intro', label: 'Programmation Python', position: 'left'},
           {
             href: 'https://github.com/archambaultv-prof/2025H-420-910-MA/',
             label: 'GitHub',
