@@ -71,6 +71,28 @@ const config = {
           autoCollapseCategories: true,
         }
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'MXCGXAYC2C',
+
+        // Public API key: it is safe to commit it
+        apiKey: '66817aa97a067cd3765c4dd001c8f9d8',
+
+        indexName: 'archambaultv-profio',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
+
+      },
       navbar: {
         title: 'Concepts de programmation 1',
         logo: {
