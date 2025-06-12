@@ -107,6 +107,7 @@ const config = {
             label: 'Accueil',
           },
           {to: 'https://archambaultv-prof.github.io/programmation-python/docs/intro', label: 'Programmation Python', position: 'left'},
+          {to: 'https://archambaultv-prof.github.io/git', label: 'Git', position: 'left'},
           {
             href: 'https://github.com/archambaultv-prof/2025H-420-910-MA/',
             label: 'GitHub',
